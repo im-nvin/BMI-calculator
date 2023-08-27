@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(158, 158, 134);
+    height: 100vh;
+
+}
+
+form {
+    height: 250px;
+    width: 500px;
+    -webkit-box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(254, 240, 108);
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* CSS */
+button {
+    background-color:  rgb(64, 64, 64);;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+
+}
+
+.result {
+    width: 100%;
+    border: none;
+    color: darkblue;
+    font-size: 25px;
+    font-weight: 900;
+}
